@@ -5,3 +5,5 @@ const returnFirstTwoDrivers = function(a){
 const returnLastTwoDrivers = function(a) {
   return a.slice(Math.max(a.length - 2))
 }
+
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
