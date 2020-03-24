@@ -1,5 +1,5 @@
-const returnFirstTwoDrivers = function(a){
-  return [a[0], a[1]];
+const returnFirstTwoDrivers = function(array){
+  return array.slice(0,2);
 }
 
 const returnLastTwoDrivers = function(a) {
@@ -13,3 +13,5 @@ function createFareMultiplier(integer) {
     return integer * fare
   }
 }
+
+const fareDoubler =
